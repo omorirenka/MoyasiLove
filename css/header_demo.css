@@ -6,7 +6,7 @@ header {
     background-color: #FAF5EE;
     /* background-image: url("../img/header_background2.png"); */
     background-size: 200px;
-    height: 130px;
+    height: 140px;
 }
 a {
     text-decoration: none;
@@ -24,6 +24,9 @@ nav {
 }
 .nav_a {
     width:200px;
+}
+.nav_list a :hover{
+    color:#85898e;
 }
 .nav_a li{
     width:200px;
@@ -56,5 +59,15 @@ nav {
     border-left: 2px dotted black;
 }
 .moyasikun {
-    width:100px;
+    width:100%;   
+    text-align: right;
+}
+
+.moyasikun img {
+    width: 80px;
+    margin-right: 120px;
+    margin-top: -100px;
+}
+.nav_img {
+    width:190px;
 }
