@@ -14,20 +14,23 @@
  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
 <body>
+    <div class="slide">
     <ul class="slide-items">
         <li><img class="slide-image" src="../img/slide2.jpg" alt=""></li>
         <li><img class="slide-image" src="../img/slide1.jpg" alt=""></li>
         <!-- <li><img class="slide-image" src="../img/top_image3.png" alt=""></li> -->
       </ul>
+    </div>
     <script>
         $('.slide-items').slick({
             speed: 2500,           // 画像切り替えにかかる時間（ミリ秒）
             autoplaySpeed: 250,   // 自動スライド切り替え速度
-            arrows: false,         // 矢印表示・非表示
+            arrows: true,         // 矢印表示・非表示
             autoplay: true,        // 自動再生
             slidesToShow: 1,       // スライド表示数
             slidesToScroll: 1,     // スライドする数
-            infinite: true         // 無限リピート オン・オフ
+            infinite: true   ,      // 無限リピート オン・オフ
+            pauseOnHover: true,     //マウスホバーで一時停止
         });</script>
 </body>
 </html>
