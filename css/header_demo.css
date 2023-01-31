@@ -1,0 +1,44 @@
+body  {
+    margin: 0;
+}
+header {
+    /* background-color: red; */
+    background-image: url("../img/header_background2.png");
+    background-size: 200px;
+    height: 180px;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    /* margin-left: 33%; */
+    width: 100%;
+    margin-top: -40px;
+    margin-bottom: 10px;
+}
+.nav {
+    list-style: none;
+    margin-left: 10px;
+    font-size:1.2rem;
+}
+#site_icon {
+    width:150px;
+    margin-top: 20px;
+    margin-left:20px;
+}
+.icon_grp {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.nav_list {
+    display: flex;
+    justify-content: center;
+}
+.nav_list a {
+    color:#4d5156;
+    /* font-family: 'Qwitcher Grypen', cursive; */
+    font-family: 'Kosugi Maru', sans-serif;
+}
+.nav_list a:visited {
+    color:#4d5156;
+}
