@@ -1,7 +1,27 @@
+html{
+    background-image: url(../img/qmoyasihaikei.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+
+    background-color: rgba(0,0,0, 0.5);
+    background-blend-mode: hard-light;
+    min-height: 100vh;
+}
+
 .quiz{
     text-align: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    /* margin-top: 10%;
+    margin-bottom: 10%; */
+}
+
+.text1{
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-family: 'Vollkorn SC', serif;
+  font-family: 'DotGothic16', sans-serif;
+  /* font-size: 60px;
+  font-weight: bold; */
 }
 
 .name{
@@ -16,11 +36,94 @@
 
 .button{
     overflow: hidden;
-    margin-top: 50px;
+    margin-top: 40px;
     width: 20%;
-    height: 50px;
+    height: 60px;
     background-color: rgb(30, 140, 60);
-    border-radius: 5px;
+    border-radius: 50px;
     font-size: 30px;
     color: #fff;
+}
+
+
+.inner-block {
+  position: relative;
+  width: calc(100% - 60px);
+  margin: 0 auto;
+  max-width: 1000px;
+}
+ 
+.quiz-content {
+  border: 1px solid #222;
+  background-color: rgba(255, 255, 255, 50%);
+}
+
+.quiz-question-number {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  border-bottom: 1px solid #222;
+  padding: 20px;
+}
+
+.quiz-question {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.8;
+  margin-bottom: 40px;
+  position: relative;
+  text-align: center;
+  padding: 30px 200px 0px;
+}
+
+ .quiz-answer {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 0 10px 10px;
+}
+
+.quiz-answer li{
+  position: relative;
+  list-style:none
+}
+/*
+.quiz-answer label {
+  color: #222;
+  
+  
+  
+  
+} */
+
+.quiz-answer label{
+  display: block;
+  margin: 0 auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  background: #c8eac3;
+  color: #000;
+  padding: 4px 20px 4px 80px;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.16;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  border: 1px solid #000;
+  white-space: pre-wrap;
+}
+.quiz-answer input:checked+label{
+  background: #1a720d;
+  color: #FFF;
+}
+.quiz-answer input{
+  display: none;
 }
