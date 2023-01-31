@@ -1,3 +1,42 @@
+<<<<<<< HEAD
+.about{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.recipe{
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.flex {
+    display: flex; /*横並び*/
+  }
+  
+  .flex .text2 {
+    margin-left: 50px;
+    width:600px;
+  }
+  .flex img {
+    width:300px;
+    height: 300px;
+  }
+
+  .try{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .try .maru{
+     border-radius: 50%;
+     width: 200px;
+     height: 200px;
+     background: #6fa1ff;
+     color: #FFF;
+     text-align: center;
+     }
+=======
 .slide-items {
 
 }
@@ -5,3 +44,4 @@
 .slide-image {
   width:50%;
 }
+>>>>>>> da3d925721a15f6cd2da2064e7a6d572134fd244
