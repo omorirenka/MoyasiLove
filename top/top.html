@@ -5,27 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/header_demo.css">
     <link rel = "stylesheet" href = "../css/top.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class = "content">
+    <header>
+        <div class="icon_grp"><img src="../img/もやしサイトタイトル3.png" id="site_icon"></div>
+        <nav>
+            <ul class="nav_list">
+                <!-- <a class="nav_a borders" href=""><li class="nav"><img class="nav_img" src="../img/もやしとは？.png"></li></a>
+                <a class="nav_a" href=""><li class="nav"><img class="nav_img" src="../img/レシピ.png"></li></a>
+                <a class="nav_a borders" href=""><li class="nav"><img class="nav_img" src="../img/もやし王決定戦.png"></li></a> -->
+                <a class="nav_a borders" href="../about.html"><li class="nav">もやしとは？</li></a>
+                <a class="nav_a" href="../recipe/recipe.html"><li class="nav">レシピ</li></a>
+                <a class="nav_a borders" href="../quiz/qstart.html"><li class="nav">もやし王決定戦</li></a>
+            </ul>
+        </nav>
+    </header>
+    <section class = "content">
         <div class = "about">
-        <h1>もやしについて</h1>
-        <p class="text1">ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります
-        ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります
-        ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります
-        ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります
-        ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります
-        ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります
-        ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります
-        ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります</p>
+        <h1 class="tit_font">もやしについて</h1>
+        <p class="text1 yu-gotic">
+            皆さんは<span class="article_bold">もやし</span>について深く知っているでしょうか？一番頭に浮かびやすいのは、
+            もやしは<span class="article_bold">値段が安い</span>上に旬がなく、<span class="article_bold">カロリーも低い</span>という点でしょう。もやしはこういった要素から
+            節約をしている学生、ダイエット中の20台の女性から人気のある野菜です。<br>
+            ではもやしが<span class="article_bold">健康・美容</span>に良い事はご存じでしょうか？実はもやしにはカリウム、
+            カルシウム、ビタミンB群など、人間の生命活動に良い影響を与える成分がたくさん
+            詰まっているのです！
+            当サイトでもやしの隠された効果やおいしいレシピを知っていきましょう！
+
+
+        </p>
+        </div>
+        <div class="btn">
+          <a href="../about.html" class="btn_03">詳しく見る</a>
         </div>
        
         <div class = "recipe">
-        <h1>レシピ</h1>
+        <h1 class="tit_font">レシピ</h1>
             <div class="flex"><span></span>
-            <div><img src="../img/top.png" alt=""></div>
-              <p class="text2">ここにテキストが入りますここにテキストが入りますここにテキストが入ります
+            <div><img src="../img/demo_moyasi_jpg.jpg" alt=""></div>
+              <p class="text2 yu-gotic" id="recipe_txt">ここにテキストが入りますここにテキストが入りますここにテキストが入ります
                                ここにテキストが入りますここにテキストが入りますここにテキストが入ります
                                ここにテキストが入りますここにテキストが入りますここにテキストが入ります
                                ここにテキストが入りますここにテキストが入りますここにテキストが入ります
@@ -34,6 +57,11 @@
                                ここにテキストが入りますここにテキストが入りますここにテキストが入ります</p>
             </div>
         </div>
-    </div>
+        <div class="tit_wid">
+            <div class="btn">
+                <a href="#" class="btn_03">詳しく見る</a>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
