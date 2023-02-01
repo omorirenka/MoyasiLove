@@ -21,5 +21,17 @@
             </ul>
         </nav>
     </header>
+    <script>
+        $('.slide-items').slick({
+            speed: 2500,           // 画像切り替えにかかる時間（ミリ秒）
+            autoplaySpeed: 250,   // 自動スライド切り替え速度
+            arrows: true,         // 矢印表示・非表示
+            autoplay: true,        // 自動再生
+            slidesToShow: 1,       // スライド表示数
+            slidesToScroll: 1,     // スライドする数
+            infinite: true   ,      // 無限リピート オン・オフ
+            pauseOnHover: true,     //マウスホバーで一時停止
+        });
+    </script>
 </body>
 </html>

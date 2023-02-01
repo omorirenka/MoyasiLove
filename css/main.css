@@ -1,3 +1,6 @@
+html {
+  width: 100%;
+}
 .slide{
   width: 100%;
   
@@ -6,6 +9,7 @@
   margin-right: 10%;
   margin-left: 10%;
   text-align: center;
+  margin-top: 50px;
 }
 .slide-image {
   width:100%;
