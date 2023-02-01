@@ -1,0 +1,67 @@
+.heading{
+    font-size: 1.5em;/* フォントサイズ */
+    font-weight: bold;/* フォント太さ */
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    border-bottom: 3px solid  #409614;/* 下の線 */
+    color: #409614;/* フォント色 */
+    text-align: center;/* テキストの位置 */
+    }
+
+.contents-wrapper h1{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+      
+      
+h1:before {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    bottom: -10px; /*下線の上下の位置*/
+    left: 50%;
+    width: 30px; /*下線の幅*/
+    height: 2px; /*下線の太さ*/
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translate(-50%); /*位置の調整*/
+    background-color: #666666; /*下線の色*/
+    text-align: center;
+}
+    
+.wrapper{
+        width:100%;
+        /* background-color:#fafafa; */
+    }
+.wrapper .container{
+    max-width:1000px;
+    margin:0px auto;
+    padding:80px 0px;
+}
+/* content */
+@media (min-width: 992px) {
+    .wrapper .container .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.wrapper .content-item {
+    width:100%;
+}
+@media (min-width: 992px) {
+    .wrapper .content-item {
+        width:50%;
+    }
+}
+.wrapper .image{
+    display:block;
+    max-width:100%;
+    margin:0px auto;
+}
+.wrapper .text{
+    padding:50px;
+}
