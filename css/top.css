@@ -6,6 +6,7 @@ section {
   width:80%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
 }
 
 .recipe{
@@ -19,8 +20,7 @@ section {
   }
   
   .flex .text2 {
-    margin-left: 50px;
-    width:600px;
+    padding-left: 20px;
   }
   .flex img {
     width:500px;
@@ -30,8 +30,25 @@ section {
   line-height: 2rem;
 }
 .tit_font {
-  font-family: 'Kosugi Maru', sans-serif;
   margin-top: 100px;
+  font-family: 'Kosugi Maru', sans-serif;
+  font-size: 30px;
+  position: relative;
+  margin-bottom: 0.2rem;
+  padding: 0.5rem;
+  border-bottom: 5px solid;
+  color: #F09033;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.tit_font:before {
+  position: absolute;
+  bottom: -0.6rem;
+  left: 0rem;
+  right: 0rem;
+  border-bottom: 1px solid;
+  content: '';
 }
 .btn {
   max-width: 300px;
@@ -85,9 +102,19 @@ a.btn_03:hover:before {
 .tit_wid {
   width:100%;
 }
-#recipe_txt {
-  margin-top: -2px;
-}
 .article_bold {
   font-weight: bold;
+}
+.recipe img {
+  vertical-align: bottom;
+}
+.slide_grp {
+  position:relative;
+}
+.slide_icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: scale(2,2);
 }
