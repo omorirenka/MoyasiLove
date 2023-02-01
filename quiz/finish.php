@@ -14,17 +14,25 @@
     }
 
     if($answernum === 5){
-        $syougou = "救世主";
-        $answernum = "全";
+        $syougou = "おめでとう！君は救世主だ！！";
+        $answernum = "全問正解！";
         $moyasiimg = "quiz_kyuuseishu.png";
     }else if($answernum === 4){
-        $syougou = "もやし王";
+        $syougou = "おめでとう！君はもやし王だ！！";
+        $answernum = $answernum."問正解！";
         $moyasiimg = "quiz_kingmoyashi.png";
     }else if($answernum === 3){
-        $syougou = "もやし大臣";
+        $syougou = "おめでとう！君はもやし大臣だ！！";
+        $answernum = $answernum."問正解！";
         $moyasiimg = "quiz_daijin.png";
     }else{
-        $syougou = "もやし国民";
+        if($answernum === 0){
+            $answernum = "全問不正解！";
+            $syougou = "残念！次は頑張ろう！！";
+        }else{
+            $syougou = "おめでとう！君はもやし国民だ！！";
+            $answernum = $answernum."問正解！";
+        }
         $moyasiimg = "quiz_kokumin.png";
     }
     
@@ -44,8 +52,8 @@
 <div id="wrapper">
 
 <div class="finishcontainer">
-    <p class = "answernum text1"><?php echo $answernum."問正解！"; ?></p>
-    <p class = "syougou text1"><?php echo "おめでとう！君は".$syougou."だ！！"; ?></p>
+    <p class = "answernum text1"><?php echo $answernum; ?></p>
+    <p class = "syougou text1"><?php echo $syougou; ?></p>
     <img src="../img/<?php echo $moyasiimg; ?>" alt="もやし" style="height:60%; width:auto;">
 </div>
 <div class = "returncontainer">

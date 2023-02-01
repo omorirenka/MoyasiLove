@@ -70,7 +70,7 @@ html{
  
 .quiz-content {
   border: 1px solid #222;
-  background-color: rgba(255, 255, 255, 50%);
+  background-color: rgba(255, 255, 255, 60%);
 }
 
 .quiz-question-number {
@@ -192,6 +192,7 @@ html{
 	height: 100%;
 }
 .answernum{
+  padding-left: 15px;
   padding-top: 10px;
   font-size: 40px;
   letter-spacing : 0.42em;
