@@ -18,27 +18,31 @@
         $syougoubun = "おめでとう！君は".$syougou."だ！！";
         $answernum = "全問正解！";
         $moyasiimg = "quiz_kyuuseishu.png";
+        $style = "height:65%; width:60%; object-fit: cover;";
     }else if($answernum === 4){
         $syougou = "もやし王";
         $syougoubun = "おめでとう！君は".$syougou."だ！！";
         $answernum = $answernum."問正解！";
         $moyasiimg = "quiz_kingmoyashi.png";
+        $style = "height:60%; width:auto;";
     }else if($answernum === 3){
         $syougou = "もやし大臣";
         $syougoubun = "おめでとう！君は".$syougou."だ！！";
         $answernum = $answernum."問正解！";
         $moyasiimg = "quiz_daijin.png";
+        $style = "height:60%; width:auto;";
     }else{
         if($answernum === 0){
-            $answernum = "全問不正解！";
+            $answernum = "全問不正解!";
             $syougou = "もやし国民";
-            $syougoubun = "残念！次は頑張ろう！！";
+            $syougoubun = "　残念！ 次は頑張ろう！！";
         }else{
             $syougou = "もやし国民";
             $syougoubun = "おめでとう！君は".$syougou."だ！！";
             $answernum = $answernum."問正解！";
         }
         $moyasiimg = "quiz_kokumin.png";
+        $style = "height:60%; width:auto;";
     }
     
 ?>
@@ -59,7 +63,7 @@
 <div class="finishcontainer">
     <p class = "answernum text1"><?php echo $answernum; ?></p>
     <p class = "syougou text1"><?php echo $syougoubun; ?></p>
-    <img src="../img/<?php echo $moyasiimg; ?>" alt="もやし" style="height:60%; width:auto;">
+    <img src="../img/<?php echo $moyasiimg; ?>" alt="もやし" style="<?php echo $style; ?>">
 </div>
 <div class = "returncontainer">
     <a href="https://twitter.com/intent/tweet?hashtags=もやし王&text=称号「<?php echo $syougou ?>」をゲット！！今すぐ君も挑戦しよう！！&url=#" class="twitter-hashtags-btn" target="_blank">
