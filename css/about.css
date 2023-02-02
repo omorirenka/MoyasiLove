@@ -1,9 +1,11 @@
 .heading06 {
 	position: relative;
-	padding-top: 50px;
+	padding-top: 90px;
 	padding-bottom: 50px;
 	font-size: 26px;
 	text-align: center;
+  margin-top:0;
+  margin-bottom: 0;
 }
 
 .heading06 span {
@@ -14,7 +16,7 @@
 .heading06::before {
 	content: attr(data-en);
 	position: absolute;
-	top: -20px;
+	top: 20px;
 	left: 50%;
 	transform: translateX(-50%);
 	color: rgba(224,66,114,0.2);
@@ -142,9 +144,26 @@ ol {
   }
 
   h2 {
-    padding: 1rem 2rem;
-    border-left: 4px solid #000;
+    margin-top: 100px;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0.2rem;
+    padding: 0.5rem;
+    padding-bottom: 0;
+    position: relative;
+    border-bottom: 5px solid;
+    color: #F09033;
+    font-weight: bold;
+    margin-bottom: 50px;
   }  
+  h2:before {
+    position: absolute;
+    bottom: -0.6rem;
+    left: 0rem;
+    right: 0rem;
+    border-bottom: 1px solid;
+    content: '';
+  }
 
  h1 {
   margin-left: auto;
@@ -153,6 +172,12 @@ ol {
  }
 
  body {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   background-size: cover;
+}
+
+/* ここから嵯峨拓人が書いたcss */
+.header_btm {
+  height: 250px;
+  background-color: antiquewhite;
 }

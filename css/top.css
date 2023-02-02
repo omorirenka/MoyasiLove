@@ -33,9 +33,9 @@ section {
   margin-top: 100px;
   font-family: 'Kosugi Maru', sans-serif;
   font-size: 30px;
-  position: relative;
   margin-bottom: 0.2rem;
   padding: 0.5rem;
+  position: relative;
   border-bottom: 5px solid;
   color: #F09033;
   font-weight: bold;
@@ -113,8 +113,15 @@ a.btn_03:hover:before {
 }
 .slide_icon {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 30%;
+  left: 0%;
   transform: translate(-50%, -50%);
   transform: scale(2,2);
+  transform:skew(-5deg,-5deg);
+}
+
+#site_icon2 {
+  /* width:1000px; */
+  /* position: fixed; */
+  width:70%;
 }
