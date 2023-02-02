@@ -18,7 +18,7 @@
         $syougoubun = "おめでとう！君は".$syougou."だ！！";
         $answernum = "全問正解！";
         $moyasiimg = "quiz_kyuuseishu.png";
-        $style = "height:65%; width:60%; object-fit: cover;";
+        $style = "height:65%; width:40%; object-fit: cover;";
     }else if($answernum === 4){
         $syougou = "もやし王";
         $syougoubun = "おめでとう！君は".$syougou."だ！！";
