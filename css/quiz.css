@@ -5,7 +5,8 @@ html{
     object-fit: cover;
     position: relative;
 
-    background-color: rgba(0,0,0, 0.5);
+    /* background-color: rgba(0,0,0, 0.5); */
+    background-color: rgba(255,255,255, 0.3);
     background-blend-mode: hard-light;
     min-height: 100vh;
 }
@@ -217,7 +218,7 @@ html{
 	height: 100%;
 }
 .answernum{
-  padding-left: 15px;
+  padding-left: 40px;
   padding-top: 10px;
   font-size: 40px;
   letter-spacing : 0.42em;
