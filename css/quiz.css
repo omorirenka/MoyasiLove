@@ -5,9 +5,18 @@ html{
     object-fit: cover;
     position: relative;
 
-    background-color: rgba(0,0,0, 0.5);
+    /* background-color: rgba(0,0,0, 0.5); */
+    background-color: rgba(255,255,255, 0.3);
     background-blend-mode: hard-light;
     min-height: 100vh;
+}
+
+.moyassi-1{
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10%;
+  /* width: 500px;
+  height: 500px; */
 }
 
 .quiz{
@@ -15,8 +24,8 @@ html{
 }
 
 .start{
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    /* margin-bottom: 5%; */
 }
 
 .text1{
@@ -27,18 +36,35 @@ html{
 }
 
 .mooutitle{
+  margin-top: -20px;
   font-size: 70px;
   font-weight: bold;
 }
 
 .name{
-  width: 40%;
+  width: 60%;
   height: 50px;
   background-color: rgba(255, 255, 255, 50%);
   border-radius: 5px;
   padding-top: 3px;
   padding-bottom: 3px;
   font-size: 25px;
+}
+
+.startbutton{
+  overflow: hidden;
+  margin-top: 40px;
+  width: 30%;
+  height: 60px;
+  background-color: rgb(30, 140, 60);
+  border-radius: 50px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.startbutton:hover{
+  background-color: #fff;
+  color: rgb(30, 140, 60);
 }
 
 .button{
@@ -192,7 +218,7 @@ html{
 	height: 100%;
 }
 .answernum{
-  padding-left: 15px;
+  padding-left: 40px;
   padding-top: 10px;
   font-size: 40px;
   letter-spacing : 0.42em;

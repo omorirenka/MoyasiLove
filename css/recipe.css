@@ -14,8 +14,6 @@
     position: relative;
     text-align: center;
 }
-
-      
       
 h1:before {
     display: inline-block;
@@ -40,7 +38,7 @@ h1:before {
 .wrapper .container{
     max-width:1000px;
     margin:0px auto;
-    padding:80px 0px;
+    padding:0px 0px;
 }
 /* content */
 @media (min-width: 992px) {
@@ -90,21 +88,21 @@ h1:before {
 }
 /* ヘッダー下の枠をワイド80%にするcss */
 .content {
-    width:80%;
+    width:100%;
     margin-left: auto;
     margin-right: auto;
     background-color:rgb(244, 244, 229) ;/*ここは消してもいい*/
 }
 .content2 {
-    width:80%;
+    width:100%;
     margin-left: auto;
     margin-right: auto;
-    background-color:rgb(204, 204, 204) ;/*ここは消してもいい*/
+    background-color:rgb(244, 244, 229) ;/*ここは消してもいい*/
 }
 .content2 .header_btm {
     width:100%;
     height:250px; /*ここは消してもいい*/
-    background-color: rgb(204, 204, 204);/*ここは消してもいい 背景素材に変えるのも可*/
+    background-color: rgb(244, 244, 229);/*ここは消してもいい 背景素材に変えるのも可*/
 }
 .content2 .header_btm h1 {
     margin:0;
@@ -114,7 +112,7 @@ h1:before {
     font-weight: initial;
 }
 .sec_img {
-    width:50%;
+    width:100%;
 }
 .sec_img img {
     width:100%;
