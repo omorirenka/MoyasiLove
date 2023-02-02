@@ -70,6 +70,7 @@ h1:before {
 .header_btm {
     width:100%;
     height:270px; /*ここは消してもいい*/
+    /* background-image: url(../img/tatami.jpg); */
     background-color: rgb(244, 244, 229);/*ここは消してもいい 背景素材に変えるのも可*/
 }
 /* ヘッダー下の空間に文字を入れるcss */
@@ -91,6 +92,7 @@ h1:before {
     width:100%;
     margin-left: auto;
     margin-right: auto;
+    background-image: url(../img/wasi2.png);
     background-color:rgb(244, 244, 229) ;/*ここは消してもいい*/
 }
 .content2 {
